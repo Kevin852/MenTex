@@ -1,0 +1,310 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block style %}
+.container{
+  margin-top:120px;
+}
+.screen-form {
+  margin-top: 20px;
+}
+.card{
+  margin:20px 0 20px 0;
+  max-width: 375px;
+}
+{% endblock %}
+{% block content %}
+<div class='container'>
+  <h2>Stress Test</h2>
+  <form class="screen-form">
+<fieldset class="form-group">
+    <p><b>Gender:</b></p>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="1" id="optionsRadios1" value="10" checked>
+        Male
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="1" id="optionsRadios2" value="20">
+        Female
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="1" id="optionsRadios3" value="30">
+        Other
+      </label>
+    </div>
+  </fieldset>
+  </form>
+  <form>
+  <fieldset class="form-group">
+      <p><b>Your age</b></p>    
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="2" id="optionsRadios1" value="10" checked>
+          18-30
+        </label>
+      </div>
+      <div class="form-check">
+      <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="2" id="optionsRadios2" value="20">
+          31-60
+        </label>
+      </div>
+      <div class="form-check">
+      <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="2" id="optionsRadios3" value="30">
+          60 Above
+        </label>
+      </div>
+    </fieldset>
+  </form>
+  <form>
+    <fieldset class="form-group">
+        <p><b>Job</b></p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="3" id="optionsRadios1" value="10" checked>
+            Employee
+          </label>
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="3" id="optionsRadios2" value="20">
+            Student
+          </label>
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="3" id="optionsRadios3" value="30">
+            Others
+          </label>
+        </div>
+      </fieldset>
+    </form>
+    <form>
+    <fieldset class="form-group">
+          <p><b>Relationship Status</b></p>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="4" id="optionsRadios1" value="10" checked>
+              Yes, I'happy about it.
+            </label>
+          </div>
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="4" id="optionsRadios2" value="20">
+              Unhappy about it.
+            </label>
+          </div>
+          <div class="form-check">
+          <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="4" id="optionsRadios3" value="30">
+              No Relationship
+            </label>
+          </div>
+          
+          
+        </fieldset>
+      </form>
+<form>
+      <fieldset class="form-group">
+            <p><b>How well, do you bounce back from adversity.</b></p>          
+            <div class="form-check">              
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="5" id="optionsRadios1" value="10" checked>
+                Not at all
+              </label>
+            </div>
+            <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="5" id="optionsRadios2" value="20">
+                Several time
+              </label>
+            </div>
+            <div class="form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="5" id="optionsRadios3" value="30">
+                More than half of the time
+              </label>
+            </div>
+            
+          </fieldset>
+        </form>
+<form>
+        <fieldset class="form-group">
+              <p><b>How often do you consider your life as boring?</b></p>            
+              <div class="form-check">                
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="6" id="optionsRadios1" value="10" checked>
+                  Not at all
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="6" id="optionsRadios2" value="20">
+                  Several days
+                </label>
+              </div>
+              <div class="form-check">
+              <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="6" id="optionsRadios4" value="30">
+                  Nearly every day
+                </label>
+              </div>
+            </fieldset>
+          </form>
+          <form>
+            <fieldset class="form-group">
+                <p><b>Do you have any ongoing stressfull situation?</b></p>              
+                <div class="form-check">                  
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios1" value="10" checked>
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="20">
+                    No
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="30">
+                      Maybe
+                    </label>
+                  </div>
+                
+              </fieldset>
+            </form>
+<form>              <fieldset class="form-group">
+                <p><b>Are you worried about past and future?</b></p>              
+                <div class="form-check">                  
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios1" value="10" checked>
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="20">
+                    No
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="30">
+                      Maybe
+                    </label>
+                  </div>
+              </fieldset></form>
+<form>              <fieldset class="form-group">
+                <p><b>What do feel about meditation?</b></p>              
+                <div class="form-check">                  
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios1" value="10" checked>
+                    I do regularly
+                  </label>
+                </div>
+                <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="20">
+                    I'm intrested
+                  </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="30">
+                        I'm not intrested
+                      </label>
+                    </div>
+              </fieldset></form>
+              <form>
+              <fieldset class="form-group">
+                <p><b>Do you have any disease?</b></p>              
+                <div class="form-check">                  
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios1" value="10" checked>
+                    Insomania
+                  </label>
+                </div>
+                <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="20">
+                    Chronic Disease
+                  </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="7" id="optionsRadios2" value="30">
+                        Migraine
+                      </label>
+                    </div>
+                   
+              </fieldset>
+              
+            </form>
+   <button type="submit" class="btn btn-primary srceenTest" id="srceenTest">Submit</button>
+   <div class="card">
+     <div class="card-body">
+   <span id="Score"></span>
+ </div>
+ </div>
+ 
+ <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+</form>
+</div>
+{% endblock %}
+{% block script %}
+<script>
+document.getElementById('srceenTest').addEventListener('click',function(){
+  var score = [];
+  for(i=1;i<=7;i++){
+    let t = document.getElementsByName(String(i));
+    t.forEach(radio=>{if(radio.checked) score.push(parseInt(radio.value))});
+  }
+  console.log(score);
+  const sumScore = (accumulator, currentValue) => accumulator + currentValue;
+  const min  = 100;
+  const max = 330;
+  const total =score.reduce(sumScore);
+  console.log(total);
+  const finalScore= ((total-min)/(max-min))*100;
+  console.log(parseInt(finalScore));
+  var t=finalScore;
+  var rest=100-finalScore;
+	console.log(t);
+  console.log(rest);
+  var chart = new CanvasJS.Chart("chartContainer",
+	{
+		title:{
+			text: "Stress"
+		},
+		legend: {
+			maxWidth: 350,
+			itemWidth: 120
+		},
+		data: [
+		{
+			type: "pie",
+			showInLegend: true,
+			legendText: "{indexLabel}",
+			dataPoints: [
+				{ y: t, indexLabel: "Sad part" },
+	{ y: rest, indexLabel: "Happy part" },			
+			]
+		}
+		]
+	});
+	chart.render();
+
+  document.getElementById('Score').innerHTML ='The Percentage shows level of Depression : '+String(parseInt(finalScore))+'%';document.getElementById('Score').innerHTML ='The Percentage shows level of Depression : '+String(parseInt(finalScore))+'%';
+  
+})
+</script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+{% endblock %}

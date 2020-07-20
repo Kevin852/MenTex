@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+{% load static %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Helping Women Cope with Depression</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <style>
+    {% block style %} 
+
+		/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+padding-top: 5rem;
+padding-bottom: 3rem;
+color: #5a5a5a;
+margin-top: 5rem;
+}
+
+
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+margin-bottom: 1.5rem;
+text-align: center;
+}
+.marketing h2 {
+font-weight: normal;
+}
+.marketing .col-lg-4 p {
+margin-right: .75rem;
+margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+font-weight: 300;
+line-height: 1;
+letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+
+.featurette-heading {
+	font-size: 50px;
+}
+}
+
+@media (min-width: 62em) {
+.featurette-heading {
+	margin-top: 7rem;
+}
+}
+/*@media (max-width: 40em){
+  nav{
+    height:0px;
+  }
+}*/
+{% endblock %} 
+		</style>
+
+  </head>
+
+  <body>
+      {% block content %}
+	     <!-- Marketing messaging and featurettes
+	     ================================================== -->
+	     <!-- Wrap the rest of the page in another container to center all the content. -->
+
+	     <div class="container marketing">
+
+	       <!-- Three columns of text below the carousel -->
+	       <div class="row">
+	         <div class="col-lg-4">
+	           <img class="rounded-circle" src="{% static '/admin/img/journal.png' %}" alt="Generic placeholder image" width="140" height="140">
+	           <h2>Journaling</h2>
+	           <p>Writing therapy is a form of cognitive behavioral therapy (CBT) and over time, can help alter negative thought patterns. Change the way you think, and you will change the way you feel, and change the way you act.
+
+				Recent data is proving that Writing Therapy or Journaling is a beneficial therapy for those suffering from depression, anxiety, panic attacks and PTSD. . Who knew a daily diary could be so helpful?
+
+			</p>
+	           <p><a class="btn btn-secondary" href="https://www.inspiremalibu.com/blog/non-12-step/the-benefits-of-journaling-and-writing-therapy/" role="button">View details &raquo;</a></p>
+	         </div><!-- /.col-lg-4 -->
+			 
+			 <div class="col-lg-4">
+	           <img class="rounded-circle" src="{% static '/admin/img/meditation.png' %}" alt="Generic placeholder image" width="140" height="140">
+	           <h2>Meditation</h2>
+	           <p>Meditation has been shown to reduce stress and increase levels of chemicals in the brain that are responsible for mood regulation and relaxation. Meditation helps clear the mind and eliminate unwanted emotions like anger, fear, resentment and sadness. When these emotions are not regulated properly they can result in neurotic behavior.
+			</p>
+	           <p><a class="btn btn-secondary" href="http://cogbtherapy.com/cbt-blog/learn-to-meditate-to-reduce-stress" role="button">View details &raquo;</a></p>
+	         </div><!-- /.col-lg-4 -->
+			 
+			 <div class="col-lg-4">
+	           <img class="rounded-circle" src="{% static '/admin/img/schedule.png' %}" alt="Generic placeholder image" width="140" height="140">
+	           <h2>Behavioral Activation</h2>
+	           <p>Behavioral activation is one of the most important CBT skills used in
+				treating depression. It has to do with the way that behaviors and
+				feelings influence each other.Behavioral activation helps us understand how
+				behaviors influence emotions, just like cognitive work
+				helps us understand the connection between thoughts
+				and emotions. </p>
+	           <p><a class="btn btn-secondary" href="https://medicine.umich.edu/sites/default/files/content/downloads/Behavioral-Activation-for-Depression.pdf" role="button">View details &raquo;</a></p>
+	         </div><!-- /.col-lg-4 -->
+	       </div><!-- /.row -->
+
+
+	       <!-- START THE FEATURETTES -->
+
+	       <hr class="featurette-divider">
+
+	       <div class="row featurette">
+	         <div class="col-md-7">
+	           <h2 class="featurette-heading">Pie Chart<span class="text-muted"> For Cognitive Behavioral Therapy </span></h2>
+	           <p class="lead">Cognitive therapy use of the pie chart is to, in graphic form, re-examine how you think about things. Writing our thoughts down can be a helpful tool to gain perspective, and creating a visual representation can be even more effective in impacting our unhelpful thought patterns.
+
+			</p>
+	           <a class="btn btn-secondary" href="http://cogbtherapy.com/cbt-blog/cognitive-behavioral-therapy-pie-chart-technique-ii" role="button">Lean More &raquo;</a>
+	         </div>
+	         <div class="col-md-5">
+	           <img class="featurette-image img-fluid mx-auto" alt="Generic placeholder image" src="{% static '/admin/img/piechart.png' %}">
+	         </div>
+	       </div>
+
+	       <hr class="featurette-divider">
+
+	       <div class="row featurette">
+
+	         <div class="col-md-5 pull-md-7">
+	           <img class="featurette-image img-fluid mx-auto" src="{% static '/admin/img/games.png' %}" alt="Generic placeholder image">
+			 </div>
+			 <div class="col-md-7 push-md-5">
+				<h2 class="featurette-heading">Games<span class="text-muted"> To make your mood light</span></h2>
+				<p class="lead">Small fun games have been found to reduce stress and distract oneself when they are feeling low. </p>
+				<a class="btn btn-secondary" href="https://quickdraw.withgoogle.com/" role="button">Quic Draw &raquo;</a>
+				<a class="btn btn-secondary" href="https://www.google.com/logos/2010/pacman10-i.html" role="button">Pac Man &raquo;</a>
+				<a class="btn btn-secondary" href="https://www.google.com/doodles/icc-champions-trophy-2017-begins" role="button">Cricket &raquo;</a>
+			  </div>
+	       </div>
+
+	       <hr class="featurette-divider">
+
+	       <div class="row featurette">
+	         <div class="col-md-7">
+	           <h2 class="featurette-heading">Audio Tracks<span class="text-muted"> - Listen Now.</span></h2>
+	           <p class="lead"> Listening to such peaceful tracks helps you calm your mind, reduce stress. This in turn can help you to improve your sleep.</p>
+			   <a class="btn btn-secondary" href="https://www.dummies.com/book-extras/mindfulness-based-cognitive-therapy-dummies-resource-center/" role="button"> Play track &raquo;</a>
+			</div>
+	         <div class="col-md-5">
+	           <img class="featurette-image img-fluid mx-auto" src="{% static '/admin/img/headphones.png' %}" alt="Generic placeholder image">
+	         </div>
+	       </div>
+
+	       <hr class="featurette-divider">
+
+	       <!-- /END THE FEATURETTES -->
+
+
+	       <!-- FOOTER -->
+	       <footer>
+	        
+	       </footer>
+
+	     </div><!-- /.container -->
+   {% endblock %}
+  </body>
+
+</html>
