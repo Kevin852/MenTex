@@ -1,14 +1,3 @@
-# Cognitive behavioral therapy
-
-## Table of Contents
-- [Introduction to the Problem](#intro)
-- [Congnitive Behaviour therapy](#cbt)
-- [Digital Solution](#solution)
-<a name="intro"/>
-
-## Introduction to the Problem
-
-Depression is very common. 
 ### What is Depression?
 
 Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. It can lead to a variety of emotional and physical problems and can decrease a person’s ability to function at work and at home.
