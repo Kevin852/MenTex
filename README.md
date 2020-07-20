@@ -4,8 +4,6 @@
 - [Introduction to the Problem](#intro)
 - [Congnitive Behaviour therapy](#cbt)
 - [Digital Solution](#solution)
-- [Contributing](#contributing)
-- [Live Demo](#demo)
 <a name="intro"/>
 
 ## Introduction to the Problem
