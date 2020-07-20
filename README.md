@@ -1,4 +1,4 @@
-# Helping Women Cope with Depression and Anxiety
+# Cognitive behavioral therapy
 
 ## Table of Contents
 - [Introduction to the Problem](#intro)
