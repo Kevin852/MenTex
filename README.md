@@ -10,7 +10,7 @@
 
 ## Introduction to the Problem
 
-Depression in women is very common. In fact, women are twice as likely to develop clinical depression as men. Up to one in four women is likely to have an episode of major depression at some point in life. Depression in women can occur at any age.
+Depression is very common. 
 ### What is Depression?
 
 Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. It can lead to a variety of emotional and physical problems and can decrease a person’s ability to function at work and at home.
@@ -31,13 +31,6 @@ Symptoms of Depression in women
 * Difficulty concentrating
 
 * Suicidal thoughts or recurrent thoughts of death
-
-
-### Why is depression in women more common than depression in men?
-
-Before adolescence, depression is rare and occurs at about the same rate in girls and boys. However, with the onset of puberty, a girl's risk of developing depression increases dramatically to twice that of boys.
-
-The changes evident during puberty, pregnancy, and menopause, as well as after giving birth or experiencing a miscarriage lead to depression. In addition, the hormone fluctuations that occur with each month's menstrual cycle probably contribute to premenstrual syndrome, or PMS, and premenstrual dysphoric disorder, or PMDD. Other Triggers could be loss of parents before age 10, Physical or sexual abuse, taking certain medications,etc.
 
 </a>
 <a name="cbt"/>
